@@ -15,7 +15,19 @@
       "Bash(pkill -f \"uvicorn main:app\")",
       "Bash(git -C /Users/ragaai_user/Echo status --short)",
       "Bash(python3 -c ' *)",
-      "Bash(git -C /Users/ragaai_user/Echo diff backend/requirements.txt)"
+      "Bash(git -C /Users/ragaai_user/Echo diff backend/requirements.txt)",
+      "Bash(/Users/ragaai_user/Echo/venv/bin/uvicorn main:app --port 8000)",
+      "Bash(curl -s -X POST http://localhost:8000/people -H \"Content-Type: application/json\" -d '{\"name\":\"Shreya Shetty\"}')",
+      "Bash(curl -s http://localhost:8000/people)",
+      "Bash(curl -s http://localhost:8000/openapi.json)",
+      "Bash(kill 11722)",
+      "Bash(/Users/ragaai_user/Echo/venv/bin/uvicorn main:app --port 8010)",
+      "Bash(curl -s -X POST http://localhost:8010/people -H \"Content-Type: application/json\" -d '{\"name\":\"Shreya Shetty\"}')",
+      "Bash(curl -s http://localhost:8010/people)",
+      "Bash(curl -s http://localhost:8010/people/ee24d3f8-e5b9-4d35-bdf7-bf7f39fc721c)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8010/people/00000000-0000-0000-0000-000000000000)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3000)"
     ]
   }
 }
