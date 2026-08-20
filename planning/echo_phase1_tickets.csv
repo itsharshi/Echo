@@ -3,16 +3,16 @@ Step,Task,Type,Owner,Priority,Estimate,Can Run in Parallel With,Status
 2,Set up basic backend server (FastAPI) - hello world running locally,Backend,Harshith,P0,0.5d,Step 3,To Do
 3,Set up basic frontend app (Next.js/React) - hello world running locally,Frontend,Shreya,P0,0.5d,Step 2,To Do
 4,Connect frontend to backend - basic API call working end to end,Frontend,Shreya,P0,0.5d,,To Do
-5,Set up Postgres database locally,Backend,Harshith,P0,0.5d,Step 6,To Do
-6,Set up MinIO (local storage for audio files),Backend,Harshith,P0,0.5d,Step 5,To Do
+5,Set up Postgres database locally,Backend,Harshith,P0,0.5d,Step 6,Done
+6,Set up MinIO (local storage for audio files),Backend,Harshith,P0,0.5d,Step 5,Done
 7,Build person profile - backend API (save/fetch person),Backend,Harshith,P0,0.5d,,To Do
 8,Build person profile - create/view screen (no login),Frontend,Shreya,P0,0.5d,,To Do
 9,Build audio recording screen - record and play back audio in browser,Frontend,Shreya,P0,1d,Step 10,To Do
 10,Build audio upload API - save recording to MinIO + Postgres,Backend,Harshith,P0,1d,Step 9,To Do
 11,Research open-source voice cloning models - shortlist 2-3 (XTTS-v2, F5-TTS, OpenVoice),Research,Both,P0,1d,,To Do
 12,Install shortlisted models on M1 Pro laptops - confirm they run,Research,Harshith,P0,1d,,To Do
-13,Build a "clone voice" backend endpoint - takes uploaded audio, runs it through a model,Backend,Harshith,P0,1.5d,Step 14,To Do
-14,Build a "generate speech" screen on frontend - type text, hit generate, play result,Frontend,Shreya,P0,1d,Step 13,To Do
+13,"Build a ""clone voice"" backend endpoint - takes uploaded audio", runs it through a model,Backend,Harshith,P0,1.5d,Step 14,To Do
+14,"Build a ""generate speech"" screen on frontend - type text", hit generate, play result,Frontend,Shreya,P0,1d,Step 13,To Do
 15,Test each shortlisted model through the app and compare quality,Testing,Both,P0,1d,,To Do
 16,Pick the best model - go/no-go decision on voice quality,Research,Both,P0,0.5d,,To Do
 17,Design phonetic capture script (~20-40 sentences for cleaner voice samples),Research,Shreya,P1,1d,Step 19,To Do

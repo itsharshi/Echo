@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew install *)",
+      "Bash(PGPASSWORD=echo psql -h localhost -U echo -d echo -c \"select version\\(\\);\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:9000/minio/health/live)",
+      "Bash(docker exec *)",
+      "Bash(/Users/ragaai_user/Echo/venv/bin/pip install *)",
+      "Bash(/Users/ragaai_user/Echo/venv/bin/pip freeze *)",
+      "Bash(/Users/ragaai_user/Echo/venv/bin/pip show *)",
+      "Bash(/Users/ragaai_user/Echo/venv/bin/python -c ' *)",
+      "Bash(/Users/ragaai_user/Echo/venv/bin/uvicorn main:app --port 8001)",
+      "Bash(curl -s http://localhost:8001/health)",
+      "Bash(kill %1)",
+      "Bash(pkill -f \"uvicorn main:app\")",
+      "Bash(git -C /Users/ragaai_user/Echo status --short)",
+      "Bash(python3 -c ' *)",
+      "Bash(git -C /Users/ragaai_user/Echo diff backend/requirements.txt)"
+    ]
+  }
+}
