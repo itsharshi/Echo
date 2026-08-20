@@ -9,8 +9,9 @@ Step,Task,Type,Owner,Priority,Estimate,Can Run in Parallel With,Status
 8,Build person profile - create/view screen (no login),Frontend,Shreya,P0,0.5d,,Done
 9,Build audio recording screen - record and play back audio in browser,Frontend,Shreya,P0,1d,Step 10,Done
 10,Build audio upload API - save recording to MinIO + Postgres,Backend,Harshith,P0,1d,Step 9,Done
-11,Research open-source voice cloning models - shortlist 2-3 (XTTS-v2, F5-TTS, OpenVoice),Research,Both,P0,1d,,To Do
-12,Install shortlisted models on M1 Pro laptops - confirm they run,Research,Harshith,P0,1d,,To Do
+11,Research open-source voice cloning models - shortlisted in voice-models/README.md (priority: Hinglish then English then Hindi),Research,Both,P0,1d,,Done
+12a,Install and benchmark XTTS-v2 + GPT-SoVITS + Hinglish-TTS in voice-models/voice-h (Hinglish/English/Hindi samples; start with Hinglish-TTS),Research,Harshith,P0,2d,Step 12b,To Do
+12b,Install and benchmark F5-TTS + IndexTTS-2 + AI4Bharat IndicF5 in voice-models/voice-s (Hinglish/English/Hindi samples),Research,Shreya,P0,2d,Step 12a,To Do
 13,"Build a ""clone voice"" backend endpoint - takes uploaded audio", runs it through a model,Backend,Harshith,P0,1.5d,Step 14,To Do
 14,"Build a ""generate speech"" screen on frontend - type text", hit generate, play result,Frontend,Shreya,P0,1d,Step 13,To Do
 15,Test each shortlisted model through the app and compare quality,Testing,Both,P0,1d,,To Do
