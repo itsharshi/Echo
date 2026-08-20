@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+import AudioRecorder from "./AudioRecorder";
+
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 type Person = {
@@ -81,6 +83,8 @@ export default function Home() {
             </p>
           </div>
         )}
+
+        {person && <AudioRecorder personId={person.id} />}
       </main>
     </div>
   );

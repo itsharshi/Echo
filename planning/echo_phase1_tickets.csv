@@ -7,8 +7,8 @@ Step,Task,Type,Owner,Priority,Estimate,Can Run in Parallel With,Status
 6,Set up MinIO (local storage for audio files),Backend,Harshith,P0,0.5d,Step 5,Done
 7,Build person profile - backend API (save/fetch person),Backend,Harshith,P0,0.5d,,Done
 8,Build person profile - create/view screen (no login),Frontend,Shreya,P0,0.5d,,Done
-9,Build audio recording screen - record and play back audio in browser,Frontend,Shreya,P0,1d,Step 10,To Do
-10,Build audio upload API - save recording to MinIO + Postgres,Backend,Harshith,P0,1d,Step 9,To Do
+9,Build audio recording screen - record and play back audio in browser,Frontend,Shreya,P0,1d,Step 10,Done
+10,Build audio upload API - save recording to MinIO + Postgres,Backend,Harshith,P0,1d,Step 9,Done
 11,Research open-source voice cloning models - shortlist 2-3 (XTTS-v2, F5-TTS, OpenVoice),Research,Both,P0,1d,,To Do
 12,Install shortlisted models on M1 Pro laptops - confirm they run,Research,Harshith,P0,1d,,To Do
 13,"Build a ""clone voice"" backend endpoint - takes uploaded audio", runs it through a model,Backend,Harshith,P0,1.5d,Step 14,To Do

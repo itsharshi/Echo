@@ -16,7 +16,15 @@ Echo/
 
 ## Getting Started
 
-See [backend/README.md](backend/README.md) and [frontend/README.md](frontend/README.md) for setup instructions for each service.
+1. Start local infra (Postgres + MinIO) — see [infra/README.md](infra/README.md)
+2. Start the backend — see [backend/README.md](backend/README.md)
+3. Start the frontend — see [frontend/README.md](frontend/README.md)
+
+## What's built so far
+
+- **Person profile** — backend API to create/fetch a person, plus a frontend screen (no login)
+- **Audio recording** — record and play back a voice sample in the browser, upload it to the backend
+- **Storage** — recordings are saved to MinIO (object storage) with metadata in Postgres
 
 ## Status
 
