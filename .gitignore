@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 .venv/
+.venv_*/
 venv/
 *.egg-info/
 .pytest_cache/
@@ -37,3 +38,7 @@ voice-models/**/checkpoints/
 voice-models/**/*.pth
 voice-models/**/*.safetensors
 voice-models/**/*.ckpt
+
+# Cloned model repos (regenerable via git clone, not our code)
+voice-models/voice-s/chatterbox/
+voice-models/voice-h/chatterbox/

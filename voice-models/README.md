@@ -2,6 +2,10 @@
 
 This is where we benchmark open-source zero-shot voice cloning models before wiring one into the Echo backend (Step 21 in `planning/echo_phase1_tickets.csv`).
 
+## Status — Shreya's results (voice-s)
+
+Tested all 3 assigned models (F5-TTS, IndexTTS-2, IndicF5) plus 2 extra (XTTS-v2, Chatterbox Multilingual). **F5-TTS, IndexTTS-2, and IndicF5 were dropped** — see `voice-s/README.md` for why. **XTTS-v2 and Chatterbox Multilingual are the surviving candidates**: Chatterbox handles English/Hinglish/Hindi well across the board, XTTS-v2 is solid for English/Hindi but weak on Hinglish code-switching. Full results and setup notes in `voice-s/README.md`.
+
 **Priority order for language support:** Hinglish (code-switched Hindi/English) → English → Hindi.
 
 ## Structure
